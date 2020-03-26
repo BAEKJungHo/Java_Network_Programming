@@ -9,3 +9,15 @@ URL 구문
 
 마지막 부위(fragment)는 원격 리소스의 특정 부분을 참고하는 데 사용 된다. 원격 리소스가 HTML 인 경우 부위 지정자(fragment identifier)는 앵커(anchor)가
 된다.
+
+- 문자열을 이용하여 URL 생성하기
+
+```java
+try {
+  URL u = new URL("http:/www.aububon.org/");
+} catch (MalformedURLException ex) {
+  System.err.println(ex);
+}
+```
+
+지원하지 않는 프로토콜일 경우 MalformedURLException 이 발생하므로 해당 프로토콜의 지원 여부를 확인할 수 있다.
