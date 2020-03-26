@@ -10,4 +10,4 @@ Java Netwrok Programming(네트워크, 스트림, 소켓, 스레드, URLConnecti
 
 ## 중요한 정보 메모!!
 
-1. HTTP, GET 메서드의 최종 결과는 캐시에 저장된다. 
+- HTTP, GET 메서드의 최종 결과는 캐시에 저장된다. 
